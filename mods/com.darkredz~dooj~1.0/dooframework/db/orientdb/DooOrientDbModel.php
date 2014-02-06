@@ -253,10 +253,6 @@ class DooOrientDbModel{
         return $this->_db->getMetadata()->getSchema()->getClasses();
     }
 
-    public function db(){
-        return $this->_db;
-    }
-
     public function setDb($db){
         $this->_db = $db;
     }
